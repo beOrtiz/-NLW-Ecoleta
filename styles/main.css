@@ -6,6 +6,8 @@
 * {
     margin: 0;
     padding: 0;
+    /* para não o pedding nao preencher o epaço e respeitar o width */
+    box-sizing: border-box;
 }
 
 html {
